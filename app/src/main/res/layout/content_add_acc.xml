@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_add_acc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#eee"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.vivhp.qlct.AddAccActivity"
+    tools:showIn="@layout/activity_add_acc">
+
+        <EditText
+            android:paddingLeft="@dimen/siza_5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            style="@style/WhiteBackground"
+            android:drawableRight="@mipmap/ic_bookmark_border_black_24dp1"
+            android:id="@+id/name_acc"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_48"
+            android:hint="@string/name_acc"/>
+
+        <EditText
+            android:focusable="false"
+            android:paddingLeft="@dimen/siza_5"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical|left"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            style="@style/WhiteBackground"
+            android:layout_below="@+id/name_acc"
+            android:drawableRight="@mipmap/ic_t07"
+            android:textSize="15sp"
+            android:id="@+id/btn_type_acc"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_48"
+            android:hint="@string/des_acc"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:paddingLeft="@dimen/siza_5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            style="@style/WhiteBackground"
+            android:layout_below="@+id/btn_type_acc"
+            android:drawableRight="@mipmap/ic_attach_money"
+            android:maxLength="10"
+            android:id="@+id/money_acc"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_48"
+            android:hint="@string/amount"/>
+
+    <Button
+        android:id="@+id/btnSaveType"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_48"
+        android:text="@string/btnSave"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

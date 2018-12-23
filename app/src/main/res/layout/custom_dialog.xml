@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="@dimen/size_20"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="@dimen/siza_10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_36">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_4"
+            android:background="@drawable/custom_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_36">
+
+            <RadioButton
+                android:id="@+id/radio_chi"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:button="@android:color/transparent"
+                android:background="@drawable/custom_radio_button_left"
+                android:checked="true"
+                android:layout_width="0dp"
+                android:textColor="@drawable/custom_radio_button_text"
+                android:text="@string/chi"
+                android:layout_height="match_parent" />
+
+            <RadioButton
+                android:id="@+id/radio_thu"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/thu"
+                android:button="@android:color/transparent"
+                android:background="@drawable/custom_radio_button_right"
+                android:textColor="@drawable/custom_radio_button_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edt_nhom"
+        android:layout_marginLeft="@dimen/siza_10"
+        android:layout_marginRight="@dimen/siza_10"
+        android:backgroundTint="@color/colorPrimary"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_48"
+        android:hint="@string/ten_nhom" />
+
+</LinearLayout>

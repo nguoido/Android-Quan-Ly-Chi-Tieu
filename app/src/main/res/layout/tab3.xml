@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/card_view"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="5dp"
+    android:background="#EEEEEE">
+
+    <LinearLayout
+        android:id="@+id/layoutCaidatTop"
+        style="@style/WhiteBackgroundMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner_group1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_36" />
+    </LinearLayout>
+
+    <ListView
+        style="@style/WhiteBackgroundPadding"
+        android:id="@+id/lv_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layoutCaidatBottom"
+        android:layout_below="@+id/layoutCaidatTop"
+        android:layout_marginTop="8dp"
+        android:divider="@null"
+        android:dividerHeight="5dp" />
+
+
+    <LinearLayout
+        android:id="@+id/layoutCaidatBottom"
+        style="@style/WhiteBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/input_group"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_48"
+            android:hint="@string/group"
+            android:inputType="text"
+            android:gravity="left" />
+
+        <Spinner
+            android:id="@+id/spinner_transaction_group"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_48"
+            android:layout_weight="1"
+            android:hint="@string/group"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent" />
+
+        <ImageButton
+            android:id="@+id/btnAdd"
+            android:layout_gravity="bottom"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:padding="4dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_add_circle_outline_white_24dp1"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

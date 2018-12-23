@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE">
+
+    <ScrollView
+        android:id="@+id/tab1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnSave"
+        android:background="#EEEEEE"
+        android:fillViewport="true"
+        android:focusableInTouchMode="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".Tab1">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+
+            <Spinner
+                android:id="@+id/spinner_account"
+                style="@style/WhiteBackground"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_48"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+
+            <Spinner
+                android:id="@+id/spinner_transaction"
+                style="@style/WhiteBackground"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_48"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+
+                <EditText
+                    android:id="@+id/input_amount"
+                    style="@style/WhiteBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_48"
+                    android:drawableLeft="@mipmap/ic_attach_money"
+                    android:drawableRight="@mipmap/ic_vnd_24dp"
+                    android:focusable="false"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:hint="@string/amount"
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/input_description"
+                    style="@style/WhiteBackground"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="@dimen/size_48"
+                    android:drawableLeft="@mipmap/ic_bookmark_border_black_24dp1"
+                    android:focusable="false"
+                    android:hint="@string/descriptions"
+                    android:imeOptions="flagNoExtractUi"
+                    android:singleLine="true" />
+
+            <Spinner
+                android:id="@+id/spinner_group"
+                style="@style/WhiteBackground"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_48"
+                android:paddingStart="18dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                style="@style/WhiteBackgroundDate"
+                android:layout_width="match_parent"
+                android:paddingStart="@dimen/size_16"
+                android:layout_height="@dimen/size_48"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/siza_10"
+                    android:hint="@string/date_transaction" />
+
+                <TextView
+                    android:id="@+id/DateTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="16-10-2016" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/SetDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/size_48"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:background="@color/colorPrimary"
+                    android:text="Chọn Ngày"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnSave"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_40"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/rectage_btn"
+        android:text="@string/btnSave" />
+</RelativeLayout>

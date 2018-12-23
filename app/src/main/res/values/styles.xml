@@ -1,0 +1,154 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- TabStrip -->
+    <style name="TabStrip">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">#FFFF</item>
+
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <!-- ViewPager -->
+    <style name="ViewPager">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <!--<item name="android:textColorPrimary">@color/white</item>-->
+        <!--<item name="android:background">@color/grey_dialog_box</item>-->
+    </style>
+
+    <!--TexView Style-->
+    <style name="TextViewLabel" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextViewLabel_End">
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="TextViewLabel_list_Start" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_marginLeft">@dimen/margin_text_list_item_start</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/rectage_btn</item>
+    </style>
+
+    <style name="TextViewLabel_list_End">
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textColor">@color/color_37718E</item>
+    </style>
+
+
+    <style name="TextViewLabel_spinner_Start" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/rectage_btn</item>
+    </style>
+    <!--End-->
+
+    <style name="WhiteBackground">
+        <item name="android:background">#FFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">9dp</item>
+        <item name="android:layout_marginRight">9dp</item>
+    </style>
+    <style name="WhiteBackgroundCard">
+        <item name="android:background">#FFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="WhiteBackgroundDate">
+        <item name="android:background">#FFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <!-- Kieu chu nho -->
+    <style name="WhiteBackgroundSmall">
+        <item name="android:background">#FFFF</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <!-- Kieu can le 2 ben -->
+    <style name="WhiteBackgroundPadding">
+        <item name="android:background">#FFFF</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginLeft">9dp</item>
+        <item name="android:layout_marginRight">9dp</item>
+    </style>
+
+    <style name="WhiteBackgroundMargin">
+        <item name="android:background">#FFFF</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginTop">9dp</item>
+        <item name="android:layout_marginLeft">9dp</item>
+        <item name="android:layout_marginRight">9dp</item>
+    </style>
+
+    <style name="WhiteBackgroundPadding_tab_4">
+        <item name="android:background">#FFFF</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+
+    <style name="WhiteBackground2">
+        <item name="android:background">#FFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="WhiteBackground3">
+        <item name="android:background">#FFFF</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="SizeText">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

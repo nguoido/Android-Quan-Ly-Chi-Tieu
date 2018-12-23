@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Quản Lý Chi Tiêu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Tab & nav title -->
+    <string name="add_acc">Thêm Tài Khoản</string>
+    <string name="Tab1">Thêm Giao Dịch</string>
+    <string name="Tab2">Thống Kê</string>
+    <string name="Tab3">Nhóm</string>
+    <string name="Tab4">Hiện Trạng</string>
+    <string name="history">Xem Giao dịch</string>
+    <string name="exit">Thoát</string>
+    <string name="more">Mở Rộng</string>
+    <string name="action_settings">Thông Tin</string>
+
+    <!-- Text title input layout -->
+    <string name="account">Tài Khoản</string>
+    <string name="type_transaction">Loại Giao Dịch</string>
+    <string name="amount">Số Tiền</string>
+    <string name="descriptions">Lý Do</string>
+    <string name="group">Phân Nhóm</string>
+    <string name="status_transaction">Trạng Thái Giao Dịch</string>
+    <string name="date_transaction">Date:</string>
+    <string name="date_picker">Chọn Ngày - Giờ</string>
+
+    <string name="name_acc">Tên Tài Khoản</string>
+    <string name="des_acc">Loại Tiền</string>
+
+    <string name="btnSave">Lưu</string>
+    <string name="btnAdd">Thêm</string>
+    <string name="done">Done</string>
+    <string name="retry">Retry</string>
+    <string name="error">Lỗi</string>
+    <string name="success">Done</string>
+
+
+    <string name="icon1">gmd_edit</string>
+    <string name="icon2"></string>
+    <string name="icon3"></string>
+    <string name="title_activity_status">Cài Đặt</string>
+    <string name="title_activity_history">ActivityHistory</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <string name="info">Thông tin chung</string>
+    <string name="ver">Phiên bản</string>
+    <string name="ver_number">2.4</string>
+    <string name="langue">Ngôn ngữ</string>
+    <string name="langue_region">Việt Nam</string>
+    <string name="more_info">Team Building</string>
+    <string name="saving">Đang lưu...</string>
+    <string name="tienmat">Tiền mặt</string>
+    <string name="the">Thẻ Tín Dụng</string>
+    <string name="tietkiem">Tiền Tiết Kiệm</string>
+    <string name="balance">Số Dư</string>
+    <string name="limit">Hạn mức</string>
+    <string name="date">Thời Gian</string>
+    <string name="mes_add_success">Thêm giao dịch thành công!</string>
+    <string name="mes_set_date_succ">Bạn đã chọn ngày:</string>
+    <string name="mes_add_group_err">Bạn chưa nhập tên nhóm.</string>
+    <string name="mes_add_group_suc">Đã thêm nhóm:</string>
+    <string name="mes_del_group_suc">Đã xóa nhóm:</string>
+    <string name="title_activity_add_acc">AddAccActivity</string>
+    <string name="total_thu">Tổng Thu</string>
+    <string name="total_chi">Tổng Chi</string>
+    <string name="title_activity_statics">Thống Kê</string>
+    <string name="set_date">Chọn ngày</string>
+    <string name="set_month">Chọn tháng</string>
+    <string name="set_year">Chọn năm</string>
+    <string name="alarm_mes">Hãy thêm các khoản thu chi của bạn!</string>
+    <string name="alarm_titl">Nhắc nhở</string>
+    <string name="ten_nhom">Tên nhóm</string>
+    <string name="thu">Khoản Thu</string>
+    <string name="chi">Khoản Chi</string>
+
+
+    <!-- Picker -->
+    <string name="alert_dialog_title_month">Select Month</string>
+    <string name="alert_dialog_title_year">Select Year</string>
+    <string name="positive_button_text">Cancel</string>
+    <string name="negative_button_text">Select</string>
+
+    <!-- Team Buiding-->
+    <string name="designer">Lê Tiến Chung</string>
+    <string name="design">Thiết kế</string>
+    <string name="ui_user">Nguyễn Đức Lam</string>
+    <string name="ui">Giao Diện</string>
+    <string name="logic">Lê Tuấn Thành</string>
+    <string name="logic1">Vũ Hà Vi</string>
+    <string name="logic1_android">Android Logic</string>
+    <string name="coppyright">Copyright © 2016 by Group One</string>
+    <string name="permission">Release 2016.11.18</string>
+</resources>

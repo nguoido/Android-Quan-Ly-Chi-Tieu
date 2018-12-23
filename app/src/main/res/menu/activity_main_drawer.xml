@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_add_acc"
+            android:icon="@mipmap/ic_loupe_black_24dp"
+            android:textColor="@color/colorAccent"
+            android:title="@string/add_acc"
+            android:textStyle="bold"
+            />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@mipmap/ic_description_black_24dp1"
+            android:textStyle="bold"
+            android:title="@string/history" />
+
+    </group>
+
+    <item android:title="Mở Rộng">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@mipmap/ic_settings_black_24dp1"
+                android:title="@string/action_settings" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@mipmap/ic_exit_to_app_black_24dp1"
+                android:title="@string/exit"
+                android:textStyle="italic"
+                android:checkable="false" />
+        </menu>
+    </item>
+
+</menu>
